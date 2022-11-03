@@ -1,4 +1,4 @@
-const model= require('..models/friends.model');
+const model= require('../models/friends.model');
  function postFriend(req, res){
     if (!req.body.name){
         return res.status(400).json({
